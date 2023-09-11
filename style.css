@@ -40,8 +40,9 @@ img {
 
 /* Style the Slack username */
 #slackUserName {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
+  font-style: italic;
 }
 
 /* Style the current day of the week */
@@ -58,10 +59,11 @@ img {
 /* Style the GitHub link */
 #githubURL {
   display: block;
+  align-items: center;
   margin-top: 20px;
   font-size: 16px;
   text-decoration: lawngreen;
-  color: #0c7dd3;
+  color: #1d4c70;
 }
 
 /* Style the GitHub link on hover */
