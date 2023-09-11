@@ -1,0 +1,70 @@
+/* Apply a basic reset to remove default margin and padding */
+body,
+div,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the body with a background color */
+body {
+  background-color: #ebdbdb;
+  font-family: Arial, sans-serif;
+}
+
+/* Center the content horizontally and vertically */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Style the image container */
+#image {
+  text-align: center;
+}
+
+/* Style the profile image */
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 60%;
+}
+
+/* Style the text container */
+#text {
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Style the Slack username */
+#slackUserName {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Style the current day of the week */
+#currentDayOfTheWeek {
+  font-size: 20px;
+  color: #555;
+}
+
+/* Style the track */
+#myTrack {
+  font-size: 20px;
+  font-style: italic;
+}
+/* Style the GitHub link */
+#githubURL {
+  display: block;
+  margin-top: 20px;
+  font-size: 16px;
+  text-decoration: lawngreen;
+  color: #0c7dd3;
+}
+
+/* Style the GitHub link on hover */
+#githubURL:hover {
+  text-decoration: underline;
+}
